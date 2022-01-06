@@ -5,7 +5,7 @@ metadata:
   name: nginx
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 35s
   ref:
     branch: main
   url: https://github.com/abhi1-rithu2/nginxTask
