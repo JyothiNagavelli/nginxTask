@@ -5,12 +5,7 @@ metadata:
   name: nginx
   namespace: flux-system
 spec:
-  healthChecks:
-  - apiVersion: helm.toolkit.fluxcd.io/v2beta1
-    kind: HelmRelease
-    name: nginx
-    namespace: nginx
-  interval: 5m0s
+  interval: 10s
   path: ./apps/stage
   prune: true
   sourceRef:
