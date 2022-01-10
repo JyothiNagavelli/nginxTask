@@ -10,8 +10,8 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: nginx
-      version: '>9.7.0'
+        name: bitnami
+      version: '>9.6.2'
   interval: 1m0s
   releaseName: nginx
 
