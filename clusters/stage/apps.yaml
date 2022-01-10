@@ -10,11 +10,11 @@ spec:
     kind: HelmRelease
     name: nginx
     namespace: nginx
-  interval: 1m0s
+  interval: 5m0s
   path: ./apps/stage
   prune: true
   sourceRef:
     kind: GitRepository
     name: nginx-repo
-  timeout: 1m0s
+  timeout: 5m0s
 
